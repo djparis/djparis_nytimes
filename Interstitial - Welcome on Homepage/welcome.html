@@ -1,0 +1,36 @@
+<!--
+This interstitial loads upon a new user's first visit to The New York Times homepage.
+The main CTA takes you to a landing page. The close icon hides this asset and redirects you to the live homepage.
+- Design by in-house agency 
+- HTML/CSS/JS by D.J. Paris
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/welcome.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/welcome.css"></link>
+	<title>D.J. Paris Code Sample: New York Times - Interstitial "Welcome Ad"</title>
+</head>
+<body>
+<div class="welcome font-smoothing">
+    <a class="welcome-content" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/subscription/multiproduct/lp8HYKU.html">
+      <div class="welcome-copy">
+        <div class="welcome-header">The truth is worth it.</div>
+        <span class="welcome-subhead">
+          Support independent journalism.
+          <div class="welcome-subhead-sub">Subscribe for $2 a week.<br>
+            <span class="welcome-urgency">Ends soon.</span>
+          </div>
+        </span>
+      </div>
+      <span class="welcome-cta">VIEW OFFER</span>
+    </a>
+    <div class="welcome-login">
+      Already a Subscriber? <a href="https://myaccount.nytimes.com/auth/login" target="_blank">Log in</a>
+    </div>
+    <div class="welcome-close"></div>
+</div>
+
+</body>
+</html>
